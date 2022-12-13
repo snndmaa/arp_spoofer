@@ -179,7 +179,7 @@ def getGatewayIP():
         # request gateway IP address (after failed detection by scapy)
         stopAnimation = True
         print("\n{}ERROR: Gateway IP could not be obtained. Please enter IP manually.{}\n".format(RED, END))
-        header = ('{}Halogram{}}> {}Enter Gateway IP {}(e.g. 192.168.1.1): '.format(BLUE, WHITE, RED, END))
+        header = ('{}Halogram{}> {}Enter Gateway IP {}(e.g. 192.168.1.1): '.format(BLUE, WHITE, RED, END))
         return (input(header))
 
 
